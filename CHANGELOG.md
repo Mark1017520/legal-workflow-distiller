@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.0.2
+
+- Updated the second-stage asset builder prompt so users can paste it directly after the first-stage audit output without editing the prompt body.
+- Added automatic continuation rules for finding the first-stage audit output, selecting a default candidate and proposing asset files before any write action.
+- Updated prompt file names and documentation references to v1.0.2.
+
 ## v1.0.1
 
 - Rewrote the second-stage asset builder prompt in Chinese for consistency with the core distiller prompt.

@@ -19,7 +19,7 @@ Do not run the prompt on unsanitized confidential materials unless your environm
 Copy:
 
 ```text
-prompts/legal-workflow-distiller-v1.0.1.md
+prompts/legal-workflow-distiller-v1.0.2.md
 ```
 
 Paste it into Codex or another local coding agent.
@@ -55,10 +55,12 @@ Do not create every candidate. Prefer candidates with:
 After the audit is complete, use:
 
 ```text
-prompts/legal-workflow-asset-builder-v1.0.1.md
+prompts/legal-workflow-asset-builder-v1.0.2.md
 ```
 
-Only build assets the user has confirmed.
+Paste the second-stage prompt directly into the same Codex conversation after the audit output. It will read the prior audit result, select the Top 1 candidate by default, and propose files before creating anything.
+
+Only build or write assets after the user has confirmed the proposed plan.
 
 ## 6. Review Before Team Use
 
