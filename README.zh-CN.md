@@ -17,7 +17,7 @@
 本项目的核心是一个“只读审计”提示词：
 
 ```text
-prompts/legal-workflow-distiller-v1.0.2.md
+prompts/legal-workflow-distiller-v1.0.3.md
 ```
 
 你把它复制到 Codex 或本地代码代理中运行，它会先扫描当前可访问的工作区材料，再输出候选法律工作流、评分、资产覆盖矩阵和 Top 3 资产化建议。
@@ -73,7 +73,7 @@ docs/pre-run-sanitization-checklist.md
 2. 复制核心提示词：
 
 ```text
-prompts/legal-workflow-distiller-v1.0.2.md
+prompts/legal-workflow-distiller-v1.0.3.md
 ```
 
 3. 在要审计的工作区里打开 Codex。
@@ -93,15 +93,17 @@ prompts/legal-workflow-distiller-v1.0.2.md
 6. 如果确认要创建资产，再使用第二阶段提示词：
 
 ```text
-prompts/legal-workflow-asset-builder-v1.0.2.md
+prompts/legal-workflow-asset-builder-v1.0.3.md
 ```
 
 第二阶段文件可以在第一阶段输出完成后直接复制进同一个 Codex 对话，无需修改 prompt 正文。它会自动承接上文审计输出，默认选择 Top 1 候选并先生成拟创建方案；只有你再次确认后，才会输出草案或写入文件。
 
+复制范围：打开 `prompts/legal-workflow-asset-builder-v1.0.3.md`，从第一行 `# 法律工作流资产创建器 v1.0.3` 开始，一直复制到文件最后一行。不要复制 GitHub 页面导航、按钮、文件列表或 README 里的说明文字。
+
 注意：`prompts` 目录里的两个文件不是中英文版本，而是两个阶段：
 
-- `legal-workflow-distiller-v1.0.2.md`：第一阶段，只读审计；
-- `legal-workflow-asset-builder-v1.0.2.md`：第二阶段，确认后创建资产草案。
+- `legal-workflow-distiller-v1.0.3.md`：第一阶段，只读审计；
+- `legal-workflow-asset-builder-v1.0.3.md`：第二阶段，确认后创建资产草案。
 
 ## 输出长什么样
 

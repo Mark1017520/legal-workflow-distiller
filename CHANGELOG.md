@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.0.3
+
+- Clarified the exact copy range for the second-stage asset builder prompt.
+- Made the second-stage prompt opening read as executable prompt text rather than user-facing documentation.
+- Updated prompt file names and documentation references to v1.0.3.
+
 ## v1.0.2
 
 - Updated the second-stage asset builder prompt so users can paste it directly after the first-stage audit output without editing the prompt body.

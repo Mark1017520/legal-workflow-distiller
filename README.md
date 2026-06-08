@@ -42,7 +42,7 @@ docs/pre-run-sanitization-checklist.md
 2. Copy the core prompt:
 
 ```text
-prompts/legal-workflow-distiller-v1.0.2.md
+prompts/legal-workflow-distiller-v1.0.3.md
 ```
 
 3. Paste it into Codex or another local coding agent from the workspace you want to audit.
@@ -53,10 +53,12 @@ prompts/legal-workflow-distiller-v1.0.2.md
 
 6. Paste the second-stage prompt into the same Codex conversation when you are ready to continue. You do not need to edit the prompt body; it will read the first-stage audit output, choose the Top 1 candidate by default, and propose a file plan before creating anything.
 
+Copy range: open `prompts/legal-workflow-asset-builder-v1.0.3.md` and copy from the first line `# 法律工作流资产创建器 v1.0.3` through the final line of that file. Do not copy GitHub navigation, buttons, file lists or README text.
+
 ## Prompt Files
 
-- `prompts/legal-workflow-distiller-v1.0.2.md`: audit-only workflow distillation prompt
-- `prompts/legal-workflow-asset-builder-v1.0.2.md`: second-stage prompt for creating confirmed assets
+- `prompts/legal-workflow-distiller-v1.0.3.md`: audit-only workflow distillation prompt
+- `prompts/legal-workflow-asset-builder-v1.0.3.md`: second-stage prompt for creating confirmed assets
 
 The two prompt files are two workflow phases, not English/Chinese alternatives.
 

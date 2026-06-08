@@ -1,8 +1,10 @@
-# 法律工作流资产创建器 v1.0.2
+# 法律工作流资产创建器 v1.0.3
 
-请直接复制本文件到已经完成第一阶段审计的同一个 Codex 对话中使用。用户无需修改本提示词内容。
+你正在接续同一个 Codex 对话中的第一阶段审计输出。
 
-本提示词用于第二阶段：承接 `legal-workflow-distiller-v1.0.2.md` 的第一阶段审计输出，把已识别的候选法律工作流转化为可复用资产草案，例如 Skill、custom subagent、automation、template 或 checklist。
+请进入第二阶段：承接 `legal-workflow-distiller-v1.0.3.md` 的第一阶段审计结果，把已识别的候选法律工作流转化为可复用资产草案，例如 Skill、custom subagent、automation、template 或 checklist。
+
+本提示词从这一行标题开始到文件末尾均属于可复制内容。用户无需修改本提示词正文。
 
 ## 0. 本轮模式：ASSET_BUILD_CONTINUATION
 
