@@ -42,7 +42,7 @@ docs/pre-run-sanitization-checklist.md
 2. Copy the core prompt:
 
 ```text
-prompts/legal-workflow-distiller-v1.0.0.md
+prompts/legal-workflow-distiller-v1.0.1.md
 ```
 
 3. Paste it into Codex or another local coding agent from the workspace you want to audit.
@@ -53,8 +53,10 @@ prompts/legal-workflow-distiller-v1.0.0.md
 
 ## Prompt Files
 
-- `prompts/legal-workflow-distiller-v1.0.0.md`: audit-only workflow distillation prompt
-- `prompts/legal-workflow-asset-builder-v1.0.0.md`: second-stage prompt for creating confirmed assets
+- `prompts/legal-workflow-distiller-v1.0.1.md`: audit-only workflow distillation prompt
+- `prompts/legal-workflow-asset-builder-v1.0.1.md`: second-stage prompt for creating confirmed assets
+
+The two prompt files are two workflow phases, not English/Chinese alternatives.
 
 ## Documentation
 

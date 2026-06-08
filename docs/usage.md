@@ -19,7 +19,7 @@ Do not run the prompt on unsanitized confidential materials unless your environm
 Copy:
 
 ```text
-prompts/legal-workflow-distiller-v1.0.0.md
+prompts/legal-workflow-distiller-v1.0.1.md
 ```
 
 Paste it into Codex or another local coding agent.
@@ -55,7 +55,7 @@ Do not create every candidate. Prefer candidates with:
 After the audit is complete, use:
 
 ```text
-prompts/legal-workflow-asset-builder-v1.0.0.md
+prompts/legal-workflow-asset-builder-v1.0.1.md
 ```
 
 Only build assets the user has confirmed.
